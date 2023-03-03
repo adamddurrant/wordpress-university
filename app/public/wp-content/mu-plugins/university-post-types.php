@@ -6,7 +6,7 @@ function university_post_types () {
   //Event Post Type
   register_post_type('event', array(
     'rewrite' => array('slug' => 'events'), 
-    'supports' => array('title', 'editor', 'excerpt'), //adds custom fields to post type
+    'supports' => array('title', 'editor', 'excerpt', 'thumbnail'), //adds custom fields to post type
     'has_archive' => true, //adds archive page for post type
     'public' => true,
     'show_in_rest' => true, //enables new block editor
@@ -23,7 +23,7 @@ function university_post_types () {
   //Program Post Type
   register_post_type('program', array(
     'rewrite' => array('slug' => 'programs'), 
-    'supports' => array('title', 'editor'), 
+    'supports' => array('title', 'editor', 'thumbnail'), 
     'has_archive' => true,
     'public' => true,
     'show_in_rest' => true, 
@@ -41,7 +41,7 @@ function university_post_types () {
    //Professor Post Type
    register_post_type('professor', array(
     'rewrite' => array('slug' => 'professors'), 
-    'supports' => array('title', 'editor'), 
+    'supports' => array('title', 'editor', 'thumbnail'), 
     'public' => true,
     'show_in_rest' => true, 
     'labels' => array(
@@ -57,5 +57,3 @@ function university_post_types () {
 }
 
 add_action('init', 'university_post_types');
-
-?>

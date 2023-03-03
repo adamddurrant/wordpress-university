@@ -88,3 +88,72 @@ Stack trace:
 [13-Feb-2023 14:18:14 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 32
 [13-Feb-2023 15:36:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 34
 [13-Feb-2023 17:04:01 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 145
+[03-Mar-2023 16:53:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:53:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:53:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:53:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:53:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:55:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 16:55:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[03-Mar-2023 17:00:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[03-Mar-2023 17:00:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[03-Mar-2023 17:00:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[03-Mar-2023 17:00:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[03-Mar-2023 17:01:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[03-Mar-2023 17:06:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 6 and exactly 1 expected in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:34
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php(6): pageBanner()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#4 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
+[03-Mar-2023 17:11:53 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:11:53 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:12:52 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:12:52 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:13:01 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:13:01 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:13:03 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:13:03 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:13:04 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:13:04 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:14:31 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:14:31 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:14:34 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:14:34 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 17:14:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 39
+[03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
+[03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51

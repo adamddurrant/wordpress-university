@@ -22,10 +22,45 @@ function university_features() //enable features in WP
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
   add_image_size('professorLandscape', 400, 260, true); //Adds a custom image size on upload 
-  add_image_size('professorPortrait', 480, 650, true);
+  add_image_size('professorPortrait', 480, 650, true); //true = cropped to match the size
+  add_image_size('pageBanner', 1500, 350, true);
 }
 //Enqueue header titles
 add_action('after_setup_theme', 'university_features');
+
+
+
+//Function component for page banner images
+function pageBanner($args = NULL) // Assigning null ensures args are optional because $args are now always = something
+{
+  if (!isset($args['title'])) { //if title is not set
+    $args['title'] = get_the_title();
+  }
+  if (!isset($args['subtitle'])) {
+    $args['subtitle'] = get_field('page_banner_subtitle');
+  }
+  if (!isset($args['photo'])) {
+    if (get_field('page_banner_background_image') and !is_archive() and !is_home()) { //prevents archives breaking the function
+      $args['photo'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
+    } else {
+      $args['photo'] = get_theme_file_uri('/images/ocean.jpg');
+    }
+  }
+
+?>
+  <div class="page-banner">
+    <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo'] ?>)">
+    </div>
+    <div class="page-banner__content container container--narrow">
+      <h1 class="page-banner__title"><?php echo $args['title'] ?></h1>
+      <div class="page-banner__intro">
+        <p><?php echo $args['subtitle'] ?></p>
+      </div>
+    </div>
+  </div>
+<?php
+}
+
 
 
 
