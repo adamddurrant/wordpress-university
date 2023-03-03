@@ -1,0 +1,90 @@
+[29-Jan-2023 17:47:28 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[31-Jan-2023 16:12:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 16:12:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 16:12:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 16:12:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 16:12:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 16:12:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jan-2023 18:08:13 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/index.php on line 75
+[31-Jan-2023 21:18:06 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 20
+[31-Jan-2023 21:18:10 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 20
+[31-Jan-2023 21:21:41 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[31-Jan-2023 21:21:49 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
+[31-Jan-2023 21:27:49 UTC] PHP Parse error:  syntax error, unexpected token "if" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 21
+[31-Jan-2023 21:27:50 UTC] PHP Parse error:  syntax error, unexpected token "if" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 21
+[31-Jan-2023 23:28:07 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 33
+[31-Jan-2023 23:28:13 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 33
+[31-Jan-2023 23:29:41 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 34
+[31-Jan-2023 23:33:33 UTC] PHP Warning:  Undefined variable $theParent in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 34
+[31-Jan-2023 23:35:10 UTC] PHP Warning:  Undefined variable $theParent in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[31-Jan-2023 23:39:11 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[01-Feb-2023 11:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attribute() in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/header.php:2
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template.php(783): require_once()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template.php(718): load_template('/Users/adam/Loc...', true, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#7 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/header.php on line 2
+[01-Feb-2023 13:03:49 UTC] PHP Warning:  Undefined variable $parentID in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php on line 24
+[01-Feb-2023 13:03:49 UTC] PHP Warning:  Undefined variable $parentID in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php on line 24
+[01-Feb-2023 13:04:04 UTC] PHP Warning:  Undefined variable $parentID in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php on line 21
+[01-Feb-2023 13:04:04 UTC] PHP Warning:  Undefined variable $parentID in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php on line 21
+[01-Feb-2023 14:38:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "M" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php:56
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 56
+[01-Feb-2023 14:38:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "M" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php:56
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 56
+[01-Feb-2023 14:38:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "M" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php:56
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 56
+[01-Feb-2023 15:10:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_post_types" not found or invalid function name in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(617): do_action('init')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/adam/Loc...')
+#6 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Feb-2023 15:20:53 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/mu-plugins/university-post-types.php:5) in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 31
+[01-Feb-2023 15:20:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[01-Feb-2023 15:20:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[01-Feb-2023 15:21:08 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/mu-plugins/university-post-types.php:5) in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 31
+[01-Feb-2023 15:34:43 UTC] PHP Warning:  Undefined variable $homepagePosts in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 24
+[01-Feb-2023 15:34:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php:24
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#3 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 24
+[01-Feb-2023 15:51:35 UTC] PHP Warning:  Array to string conversion in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 26
+[01-Feb-2023 15:51:35 UTC] PHP Warning:  Array to string conversion in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 26
+[01-Feb-2023 15:51:55 UTC] PHP Warning:  Array to string conversion in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[01-Feb-2023 15:54:37 UTC] PHP Warning:  Array to string conversion in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[01-Feb-2023 16:37:16 UTC] PHP Warning:  Undefined variable $show_post_types in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[01-Feb-2023 16:47:01 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 20
+[13-Feb-2023 12:52:38 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "posts_per_page", expecting ")" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 21
+[13-Feb-2023 12:59:11 UTC] PHP Fatal error:  Can't use function return value in write context in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/header.php on line 24
+[13-Feb-2023 14:07:49 UTC] PHP Warning:  Array to string conversion in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 31
+[13-Feb-2023 14:18:14 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 32
+[13-Feb-2023 15:36:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 34
+[13-Feb-2023 17:04:01 UTC] PHP Parse error:  Unclosed '{' on line 5 in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 145

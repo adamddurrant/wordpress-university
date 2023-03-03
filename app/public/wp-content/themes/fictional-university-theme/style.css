@@ -1,0 +1,14 @@
+/*
+Theme Name: Transcript Theme
+Text Domain: Transcript
+Version: 1.0
+Description: Transcript is a simple blog template designed for the WordPress CMS. Get up and running instantly, adjust the template quickly and easily with Tailwind CSS and get your thoughts online for all to see!
+Tags: personal, blog, archive, tailwind,responsive, simple
+Requires PHP: 7.0
+Author: Adam Durrant
+Author URI: https://adamdurrant.co.uk
+*/
+
+body {
+  color: green;
+}
