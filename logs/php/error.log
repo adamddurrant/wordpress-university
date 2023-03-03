@@ -157,3 +157,4 @@ Stack trace:
 [03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 39
 [03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
 [03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
+[03-Mar-2023 20:20:31 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 42
