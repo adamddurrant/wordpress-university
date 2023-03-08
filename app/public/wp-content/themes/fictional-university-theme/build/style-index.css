@@ -1158,8 +1158,8 @@ body.admin-bar .search-overlay {
 }
 .search-overlay__icon {
   margin-right: 10px;
-  font-size: 1.8rem;
-  color: #F95738;
+  font-size: 1.8rem !important;
+  color: #f95738;
 }
 @media (min-width: 960px) {
   .search-overlay__icon {
@@ -1183,11 +1183,11 @@ body.admin-bar .search-overlay {
   position: absolute;
   top: 13px;
   right: 16px;
-  font-size: 2.1rem;
+  font-size: 2.1rem !important;
   cursor: pointer;
   transition: all 0.3s;
   background-color: #fff;
-  color: #F95738;
+  color: #f95738;
   line-height: 0.7;
 }
 @media (min-width: 530px) {
@@ -1219,7 +1219,7 @@ body.admin-bar .search-overlay {
   font-size: 1rem;
   font-weight: 300;
   outline: none;
-  color: #F95738;
+  color: #f95738;
 }
 @media (min-width: 530px) {
   .search-term {
@@ -1229,7 +1229,7 @@ body.admin-bar .search-overlay {
 @media (min-width: 960px) {
   .search-term {
     width: 80%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
