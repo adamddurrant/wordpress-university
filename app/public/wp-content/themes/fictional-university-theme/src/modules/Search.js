@@ -45,23 +45,28 @@ class Search {
   }
 
   getResults() {
+    //universityData is a localized variable in functions.php to get sitename
     $.getJSON(
-      "http://fictionaluniversity.local/wp-json/wp/v2/posts?search=" +
+      universityData.root_url +
+        "/wp-json/wp/v2/posts?search=" +
         this.searchField.val(),
       (results) => {
         this.resultsDiv.html(`
         <h2 class="search-overlay__section-title">General Information</h2>
-        <ul class="link-list min-list">
-        <li>
+        ${
+          results.length
+            ? '<ul class="link-list min-list">'
+            : "<p>This search has no results. Try again...</p>"
+        }
           ${results
             .map(
               (item) =>
                 `<li><a href="${item.link}">${item.title.rendered}</a></li>`
             )
             .join("")}
-        </li>
-        <ul>
+            ${results.length ? "</ul>" : ""}
         `);
+        this.spinnerState = false;
       }
     );
   }
