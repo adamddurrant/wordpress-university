@@ -70,7 +70,7 @@ class Search {
       .map(
         (item) =>
           `<li><a href="${item.link}">${item.title.rendered}</a>${
-            item.type == "post" ? `by ${item.authorName}` : ""
+            item.type == "post" ? ` by ${item.authorName}` : ""
           }</li>`
       )
       .join("")}

@@ -1,4 +1,6 @@
 <?php
+//Pulls in the custom search route file
+require get_theme_file_path("/inc/search-route.php");
 
 //This function registers a custom key value pair in the REST API so we can pull it into search results
 function university_custom_rest()
