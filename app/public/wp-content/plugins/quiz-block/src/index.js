@@ -1,51 +1,98 @@
+import {
+  TextControl,
+  Flex,
+  FlexBlock,
+  FlexItem,
+  Button,
+  Icon,
+} from "@wordpress/components";
+import "./index.scss";
+
 //Global scope function to register a block
 wp.blocks.registerBlockType("quizblock/quiz-test", {
   title: "Are you paying attention?",
   icon: "smiley",
   category: "common",
   attributes: {
-    skyColor: {
+    question: {
       type: "string",
     },
-    grassColor: {
-      type: "string",
+    answers: {
+      type: "array",
+      default: ["red", "blue"],
     },
   },
   //This returns elements in editor
-  edit: function (props) {
-    function updateSkyColor(e) {
-      props.setAttributes({ skyColor: e.target.value });
-    }
-    function updateGrassColor(e) {
-      props.setAttributes({ grassColor: e.target.value });
-    }
-    return (
-      <div>
-        <input
-          type='text'
-          placeholder='sky color'
-          onChange={updateSkyColor}
-          value={props.attributes.skyColor}
-        />
-        <input
-          type='text'
-          value={props.attributes.grassColor}
-          placeholder='grass color'
-          onChange={updateGrassColor}
-        />
-      </div>
-    );
-  },
+  edit: EditComponent,
   save: function (props) {
     //This returns elements on actual front-end
-    return (
-      <div>
-        <p>
-          The sky colour is{" "}
-          <span className='sky-color'>{props.attributes.skyColor}</span> and the
-          grass colour is {props.attributes.grassColor}
-        </p>
-      </div>
-    );
+    return null;
   },
 });
+
+//Wordpress UI
+function EditComponent(props) {
+  function handleQuestion(value) {
+    props.setAttributes({ question: value });
+  }
+
+  function deleteAnswer(indexToDelete) {
+    const newAnswers = props.attributes.answers.filter(function (x, index) {
+      return index != indexToDelete;
+    });
+    props.setAttributes({ answers: newAnswers });
+  }
+
+  return (
+    <div className='edit-block'>
+      <TextControl
+        label={"Question:"}
+        style={{ fontSize: "20px" }}
+        value={props.attributes.question}
+        onChange={handleQuestion}
+      />
+      <p style={{ fontSize: "13px", margin: "20px 0 8px 0" }}>Answers:</p>
+      {props.attributes.answers.map(function (answer, index) {
+        return (
+          <Flex>
+            <FlexBlock>
+              <TextControl
+                autoFocus={answer == undefined}
+                value={answer}
+                onChange={(newValue) => {
+                  const newAnswers = props.attributes.answers.concat([]);
+                  newAnswers[index] = newValue;
+                  props.setAttributes({ answers: newAnswers });
+                }}
+              />
+            </FlexBlock>
+            <FlexItem>
+              <Button>
+                <Icon icon='marker' className='mark-as-correct' />
+              </Button>
+            </FlexItem>
+            <FlexItem>
+              <Button
+                onClick={() => deleteAnswer(index)}
+                className='mark-as-delete'
+              >
+                Delete
+              </Button>
+            </FlexItem>
+          </Flex>
+        );
+      })}
+      <Button
+        onClick={() => {
+          props.setAttributes({
+            answers: props.attributes.answers.concat([undefined]),
+          });
+        }}
+        variant='primary'
+        style={{ marginTop: "10px" }}
+      >
+        Add another answer
+      </Button>
+    </div>
+  );
+}

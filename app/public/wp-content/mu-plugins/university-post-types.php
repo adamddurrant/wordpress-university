@@ -1,11 +1,12 @@
 <?php
 //custom post types
 //event post type
-function university_post_types () {
-  
+function university_post_types()
+{
+
   //Event Post Type
   register_post_type('event', array(
-    'rewrite' => array('slug' => 'events'), 
+    'rewrite' => array('slug' => 'events'),
     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'), //adds custom fields to post type
     'has_archive' => true, //adds archive page for post type
     'public' => true,
@@ -22,11 +23,11 @@ function university_post_types () {
 
   //Program Post Type
   register_post_type('program', array(
-    'rewrite' => array('slug' => 'programs'), 
-    'supports' => array('title', 'editor', 'thumbnail'), 
+    'rewrite' => array('slug' => 'programs'),
+    'supports' => array('title', 'editor', 'thumbnail'),
     'has_archive' => true,
     'public' => true,
-    'show_in_rest' => true, 
+    'show_in_rest' => true,
     'labels' => array(
       'name' => 'Programs',
       'add_new_item' => 'Add New Program',
@@ -38,12 +39,13 @@ function university_post_types () {
   ));
 
 
-   //Professor Post Type
-   register_post_type('professor', array(
-    'rewrite' => array('slug' => 'professors'), 
-    'supports' => array('title', 'editor', 'thumbnail'), 
+  //Professor Post Type
+  register_post_type('professor', array(
+    'show_in_rest' => true, //creates raw JSON here http://fictionaluniversity.local/wp-json/wp/v2/professor
+    'rewrite' => array('slug' => 'professors'),
+    'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
-    'show_in_rest' => true, 
+    'show_in_rest' => true,
     'labels' => array(
       'name' => 'Professors',
       'add_new_item' => 'Add New Professor',
@@ -53,7 +55,6 @@ function university_post_types () {
     ),
     'menu_icon' => 'dashicons-welcome-learn-more',
   ));
-
 }
 
 add_action('init', 'university_post_types');

@@ -158,3 +158,461 @@ Stack trace:
 [03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 42
 [03-Mar-2023 17:14:40 UTC] PHP Warning:  Undefined array key "photo" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 51
 [03-Mar-2023 20:20:31 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 42
+[09-Mar-2023 15:04:43 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[09-Mar-2023 15:05:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[09-Mar-2023 15:05:26 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[09-Mar-2023 15:05:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[09-Mar-2023 15:05:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[09-Mar-2023 15:05:42 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[09-Mar-2023 15:05:44 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[09-Mar-2023 15:55:59 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:55:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:55:59 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:55:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:55:59 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:55:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:00 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:00 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:01 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:56:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:33 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:33 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:34 UTC] PHP Warning:  require(/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): Failed to open stream: No such file or directory in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 15:57:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(585): include()
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[09-Mar-2023 16:36:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "posts" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:18
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1171): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/university/v1/...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/functions.php(1332): WP->main('')
+#10 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(16): wp()
+#11 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#12 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 18
+[09-Mar-2023 16:37:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "post" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:18
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1171): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/university/v1/...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp.php(780): WP->parse_request('')
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/functions.php(1332): WP->main('')
+#10 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(16): wp()
+#11 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#12 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 18
+[10-Mar-2023 13:24:31 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 20
+[10-Mar-2023 13:24:31 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 20
+[10-Mar-2023 13:24:31 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 20
+[10-Mar-2023 13:24:35 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 20
+[10-Mar-2023 16:08:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/options-general.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:10:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/options-general.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:10:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/index.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:10:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/plugins.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:10:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/index.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:10:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:27
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/options-general.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 27
+[10-Mar-2023 16:11:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "plugin_location" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php:28
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): WordCountAndTimePlugin->settings('')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(175): do_action('admin_init')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/options-general.php(10): require_once('/Users/adam/Loc...')
+#5 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/first-unique-plugin/first-unique-plugin.php on line 28
+[11-Mar-2023 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function obd_start() in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php:33
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-block.php(256): QuizBlock->theHTML(Array, '\n<div class="wp...', Object(WP_Block))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:paragra...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:paragra...', Array)
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/85...')
+#12 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/block-editor.php(638): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(187): require('/Users/adam/Loc...')
+#15 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 33
+[11-Mar-2023 17:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function obd_start() in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php:33
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-block.php(256): QuizBlock->theHTML(Array, '\n<div class="wp...', Object(WP_Block))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:paragra...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:paragra...', Array)
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1857): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(568): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1171): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api/class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(535): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(2884): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/85...')
+#12 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/block-editor.php(638): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(187): require('/Users/adam/Loc...')
+#15 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 33
+[11-Mar-2023 17:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function obd_start() in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php:33
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-block.php(256): QuizBlock->theHTML(Array, '\n<div class="wp...', Object(WP_Block))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:paragra...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:paragra...', Array)
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php(17): the_content()
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#10 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 33
+[11-Mar-2023 17:36:21 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:36:21 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:36:21 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:36:21 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:37:20 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:37:20 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:38:18 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:38:18 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:41:08 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:41:08 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:41:55 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:41:55 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:01 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:01 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:02 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:02 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:02 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:02 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:04 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:42:04 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:43:15 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:43:15 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 35
+[11-Mar-2023 17:49:41 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:49:41 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:49:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:49:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:50:16 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:50:16 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:17 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:17 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:31 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:31 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:31 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:31 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:34 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:34 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:34 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:51:34 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:53:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:53:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:53:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:53:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:24 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:24 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:24 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:24 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:53 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:53 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:54 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:57:54 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:59:25 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:59:25 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:59:25 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 17:59:25 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:01:26 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:01:26 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:01:26 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:01:26 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:02:50 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:02:50 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:02:50 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:02:50 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:04:11 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:04:11 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:04:11 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:04:11 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:05:01 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:05:01 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:05:01 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:05:01 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:07:52 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:07:52 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:08:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:08:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:08:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:08:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:09:17 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:09:17 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:09:17 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:09:17 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:10:15 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:10:15 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:10:15 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:10:15 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:12:45 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:12:45 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:12:45 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:12:45 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:13:51 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:13:51 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:13:51 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:13:51 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:14:29 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:14:29 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:14:29 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:14:29 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:07 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:07 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:07 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:07 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:09 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:09 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:09 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:09 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:30 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:30 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:30 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:16:30 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:18:56 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:18:56 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:18:56 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:18:56 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:20 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:20 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:20 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:20 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:32 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:34 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:34 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:38 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:21:38 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:26:02 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:26:02 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:26:20 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:26:20 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:41 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:41 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:47 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:31:47 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:33:43 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:33:43 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:33:50 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:33:50 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:34:40 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:34:40 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:35:41 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:35:41 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:07 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:07 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:07 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:07 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:14 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:14 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:14 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:14 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:21 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:21 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:21 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:38:21 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:33 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:33 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:33 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:33 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:38 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:40 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:40 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:44 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:44 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:44 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:44 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:45 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:39:45 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:41:44 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:41:44 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:42:45 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37
+[11-Mar-2023 18:42:45 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 37

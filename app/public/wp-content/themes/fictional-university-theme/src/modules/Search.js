@@ -46,6 +46,7 @@ class Search {
   }
 
   getResults() {
+    //delete this code later on
     $.when(
       $.getJSON(
         universityData.root_url +
