@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wordpress/scripts": "^25.5.1"
+    "@wordpress/scripts": "^25.5.1",
+    "bootstrap-icons": "^1.10.3",
+    "react-bootstrap-icons": "^1.10.2",
+    "react-color": "^2.19.3"
   }
 }

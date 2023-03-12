@@ -7,8 +7,8 @@
 .edit-block .marker {
   color: #ff0000;
   cursor: pointer;
-  position: relative;
   top: -3px;
+  position: relative;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
@@ -36,4 +36,9 @@
 }
 .edit-block .mark-as-delete:hover {
   color: #c20000 !important;
+}
+
+.tooMany {
+  background-color: rgba(0, 124, 186, 0.2196078431) !important;
+  cursor: not-allowed;
 }

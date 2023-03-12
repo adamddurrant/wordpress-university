@@ -1,3 +1,4 @@
+//ADMIN VARIANT OF COMPONENT
 import {
   TextControl,
   Flex,
@@ -5,8 +6,16 @@ import {
   FlexItem,
   Button,
   Icon,
+  PanelBody,
+  PanelRow,
 } from "@wordpress/components";
 import "./index.scss";
+import {
+  InspectorControls,
+  BlockControls,
+  AlignmentToolbar,
+} from "@wordpress/block-editor";
+import { ChromePicker } from "react-color";
 
 //This is an immediately invoked function expression (note the syntax)
 (function () {
@@ -24,6 +33,8 @@ import "./index.scss";
           block.attributes.correctAnswer == undefined
         );
       });
+    console.log(blockResults);
+
     if (blockResults.length && locked == false) {
       locked = true;
       //lock the post
@@ -50,11 +61,22 @@ import "./index.scss";
   });
 })();
 
-//Global scope function to register a block
+//Global scope function to register a block and its attributes
 wp.blocks.registerBlockType("quizblock/quiz-test", {
   title: "Are you paying attention?",
   icon: "smiley",
   category: "common",
+  example: {
+    //Shows a preview of component in WP
+    attributes: {
+      question: "What colour is the sky on a clear day?",
+      correctAnswer: 2,
+      answers: ["red", "green", "blue"],
+      alignment: "left",
+      bgColor: "#ebebeb",
+    },
+  },
+  description: "An in-content quiz to keep your readers engaged.",
   attributes: {
     question: {
       type: "string",
@@ -67,16 +89,22 @@ wp.blocks.registerBlockType("quizblock/quiz-test", {
       type: "number",
       default: undefined,
     },
+    bgColor: {
+      type: "string",
+      default: "#EBEBEB",
+    },
+    alignment: {
+      type: "string",
+      default: "left",
+    },
   },
   //This returns elements in editor
   edit: EditComponent,
+  //This returns elements on actual front-end
   save: function (props) {
-    //This returns elements on actual front-end
     return null;
   },
 });
-
-//Front End UI Component
 
 //Wordpress UI Component
 function EditComponent(props) {
@@ -89,7 +117,6 @@ function EditComponent(props) {
       return index != indexToDelete;
     });
     props.setAttributes({ answers: newAnswers });
-
     if (indexToDelete == props.attributes.correctAnswer) {
       props.setAttributes({ correctAnswer: undefined });
     }
@@ -100,7 +127,30 @@ function EditComponent(props) {
   }
 
   return (
-    <div className='edit-block'>
+    <div
+      className='edit-block'
+      style={{ backgroundColor: props.attributes.bgColor }}
+    >
+      <BlockControls>
+        <AlignmentToolbar
+          value={props.attributes.alignment}
+          onChange={(val) => props.setAttributes({ alignment: val })}
+        />
+      </BlockControls>
+      <InspectorControls>
+        {/* This allows us to add a control in the right panel of Wordpress */}
+        <PanelBody title='Background Colour' initialOpen={true}>
+          <PanelRow>
+            <ChromePicker
+              disableAlpha={true}
+              color={props.attributes.bgColor}
+              onChangeComplete={(val) => {
+                props.setAttributes({ bgColor: val.hex });
+              }}
+            />
+          </PanelRow>
+        </PanelBody>
+      </InspectorControls>
       <TextControl
         label={"Question:"}
         style={{ fontSize: "20px" }}
@@ -147,12 +197,16 @@ function EditComponent(props) {
       })}
       <Button
         onClick={() => {
-          props.setAttributes({
-            answers: props.attributes.answers.concat([undefined]),
-          });
+          if (props.attributes.answers.length <= 5) {
+            props.setAttributes({
+              answers: props.attributes.answers.concat([""]),
+            });
+          }
+          undefined;
         }}
         variant='primary'
         style={{ marginTop: "10px" }}
+        className={props.attributes.answers.length == 6 ? " tooMany" : ""}
       >
         Add another answer
       </Button>
