@@ -4,7 +4,7 @@
   border: 1px solid #d6d6d6;
   background-color: #f1f1f1;
 }
-.edit-block .mark-as-correct {
+.edit-block .marker {
   color: #ff0000;
   cursor: pointer;
   position: relative;
@@ -14,9 +14,19 @@
   transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
-.edit-block .mark-as-correct:hover {
+.edit-block .marker:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+}
+.edit-block .marker-correct {
+  color: #03b600;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 .edit-block .mark-as-delete {
   color: #ff0000;

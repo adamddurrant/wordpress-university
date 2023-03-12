@@ -8,6 +8,48 @@ import {
 } from "@wordpress/components";
 import "./index.scss";
 
+//This is an immediately invoked function expression (note the syntax)
+(function () {
+  //This invokes every time data changes on the block editor as a whole
+  //This is being used to block the update button if a correct answer is not selected on one or more quiz blocks
+  let locked = false;
+
+  wp.data.subscribe(function () {
+    const blockResults = wp.data
+      .select("core/block-editor")
+      .getBlocks()
+      .filter(function (block) {
+        return (
+          block.name == "quizblock/quiz-test" &&
+          block.attributes.correctAnswer == undefined
+        );
+      });
+    if (blockResults.length && locked == false) {
+      locked = true;
+      //lock the post
+      wp.data.dispatch("core/editor").lockPostSaving("noanswer");
+      //Add an error message
+      wp.data
+        .dispatch("core/notices")
+        .createNotice(
+          "error",
+          "Please select a correct answer in the quiz block",
+          {
+            id: "noanswer",
+            isDismissible: false,
+          }
+        );
+    }
+    if (!blockResults.length && locked) {
+      locked = false;
+      //unlock the post
+      wp.data.dispatch("core/editor").unlockPostSaving("noanswer");
+      //remove error message
+      wp.data.dispatch("core/notices").removeNotice("noanswer");
+    }
+  });
+})();
+
 //Global scope function to register a block
 wp.blocks.registerBlockType("quizblock/quiz-test", {
   title: "Are you paying attention?",
@@ -19,7 +61,11 @@ wp.blocks.registerBlockType("quizblock/quiz-test", {
     },
     answers: {
       type: "array",
-      default: ["red", "blue"],
+      default: [""],
+    },
+    correctAnswer: {
+      type: "number",
+      default: undefined,
     },
   },
   //This returns elements in editor
@@ -30,7 +76,9 @@ wp.blocks.registerBlockType("quizblock/quiz-test", {
   },
 });
 
-//Wordpress UI
+//Front End UI Component
+
+//Wordpress UI Component
 function EditComponent(props) {
   function handleQuestion(value) {
     props.setAttributes({ question: value });
@@ -41,6 +89,14 @@ function EditComponent(props) {
       return index != indexToDelete;
     });
     props.setAttributes({ answers: newAnswers });
+
+    if (indexToDelete == props.attributes.correctAnswer) {
+      props.setAttributes({ correctAnswer: undefined });
+    }
+  }
+
+  function markAsCorrect(index) {
+    props.setAttributes({ correctAnswer: index });
   }
 
   return (
@@ -67,8 +123,15 @@ function EditComponent(props) {
               />
             </FlexBlock>
             <FlexItem>
-              <Button>
-                <Icon icon='marker' className='mark-as-correct' />
+              <Button onClick={() => markAsCorrect(index)}>
+                <Icon
+                  icon='marker'
+                  className={
+                    props.attributes.correctAnswer == index
+                      ? "marker-correct"
+                      : "marker"
+                  }
+                />
               </Button>
             </FlexItem>
             <FlexItem>
