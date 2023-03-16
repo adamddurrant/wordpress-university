@@ -33,7 +33,6 @@ import { ChromePicker } from "react-color";
           block.attributes.correctAnswer == undefined
         );
       });
-    console.log(blockResults);
 
     if (blockResults.length && locked == false) {
       locked = true;

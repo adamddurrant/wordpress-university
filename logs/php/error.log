@@ -760,3 +760,538 @@ Stack trace:
 [11-Mar-2023 21:04:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 42
 [11-Mar-2023 21:04:46 UTC] PHP Warning:  Undefined array key "skyColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 42
 [11-Mar-2023 21:04:46 UTC] PHP Warning:  Undefined array key "grassColor" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/quiz-block/index.php on line 42
+[16-Mar-2023 14:57:58 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 36
+[16-Mar-2023 14:57:58 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 36
+[16-Mar-2023 14:57:58 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 36
+[16-Mar-2023 14:57:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 36
+[16-Mar-2023 14:57:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 36
+[16-Mar-2023 15:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfessorHTML() in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php:35
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-block.php(256): FeaturedProfessor->renderCallback(Array, '', Object(WP_Block))
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:paragra...')
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:paragra...', Array)
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/themes/fictional-university-theme/single.php(17): the_content()
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/template-loader.php(106): include('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(19): require_once('/Users/adam/Loc...')
+#9 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#10 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 35
+[16-Mar-2023 16:37:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php on line 24
+[16-Mar-2023 16:39:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/adam/Loc...')
+#8 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 17:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/adam/Loc...')
+#8 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(34): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(12): require_once('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(57): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:35:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-cron.php(46): require_once('/Users/adam/Loc...')
+#8 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-cron.php(46): require_once('/Users/adam/Loc...')
+#8 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-cron.php(46): require_once('/Users/adam/Loc...')
+#8 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(34): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(12): require_once('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(34): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(12): require_once('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(34): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(12): require_once('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/admin.php(34): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-admin/post.php(12): require_once('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[16-Mar-2023 18:38:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rule() on null in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php:143
+Stack trace:
+#0 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(197): add_rewrite_rule('^wp-json/?$', 'index.php?rest_...', 'top')
+#1 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rest-api.php(180): rest_api_register_rewrites()
+#2 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(18): rest_api_init()
+#3 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/featured-professor.php(58): FeaturedProfessor->__construct()
+#4 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-settings.php(447): include_once('/Users/adam/Loc...')
+#5 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-config.php(93): require_once('/Users/adam/Loc...')
+#6 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-load.php(50): require_once('/Users/adam/Loc...')
+#7 /Users/adam/Local Sites/fictionaluniversity/app/public/wp-blog-header.php(13): require_once('/Users/adam/Loc...')
+#8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
+#9 {main}
+  thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
