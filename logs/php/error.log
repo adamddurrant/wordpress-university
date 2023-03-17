@@ -1295,3 +1295,4 @@ Stack trace:
 #8 /Users/adam/Local Sites/fictionaluniversity/app/public/index.php(17): require('/Users/adam/Loc...')
 #9 {main}
   thrown in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-includes/rewrite.php on line 143
+[17-Mar-2023 16:55:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/adam/Local Sites/fictionaluniversity/app/public/wp-content/plugins/featured-professor/inc/relatedPostsHTML.php on line 16
